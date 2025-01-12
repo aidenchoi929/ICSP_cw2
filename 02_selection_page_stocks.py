@@ -163,7 +163,7 @@ if st.session_state.get("stock_info"):
         st.success(f"Proceeding to Layer 3 with ticker: {st.session_state['ticker']}")
     
 # Button to redirect users to the home page
-home_url = "https://icspcw2-n33r4exgrg7wi2qpidkey4.streamlit.app/"
+home_url = "https://icspcw2landingpage.streamlit.app/"
 
 # Add a styled button for redirection
 st.markdown(f"""
