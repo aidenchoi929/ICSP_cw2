@@ -182,9 +182,6 @@ st.markdown(f"""
     </a>
 """, unsafe_allow_html=True)
 
-
-
-
 # Close center-content div
 st.markdown("</div>", unsafe_allow_html=True)
 
