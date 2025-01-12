@@ -274,7 +274,7 @@ with col5:
             justify-content: center; 
             height: 350px;">
             <div style="font-size: 50px; font-weight: bold; text-align: center; margin-bottom: 20px;">US Stocks 🇺🇸💰📈</div>
-            <a href="https://icspcw2-oyjxgrurg7h4gvrimuf5fu.streamlit.app/" target="_self" class="button-89">Gain stock insights</a>
+            <a href="https://icspcw2selectionpagestocks.streamlit.app/" target="_self" class="button-89">Gain stock insights</a>
         </div>
 
         <style>
