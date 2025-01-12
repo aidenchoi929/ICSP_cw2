@@ -262,7 +262,7 @@ st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)
 col5, col6 = st.columns(2, gap="medium")
 
 with col5:
-    st.markdown("""
+    st.markdown(f"""
         <div style="
             background-color: #FFFFFF; 
             padding: 20px; 
@@ -274,18 +274,18 @@ with col5:
             justify-content: center; 
             height: 350px;">
             <div style="font-size: 50px; font-weight: bold; text-align: center; margin-bottom: 20px;">US Stocks 🇺🇸💰📈</div>
-            <button class="button-89" onclick="window.location.href='https://icspcw2-n33r4exgrg7wi2qpidkey4.streamlit.app/'"
- role="button">Gain stock insights</button>
+            <a href="https://icspcw2-oyjxgrurg7h4gvrimuf5fu.streamlit.app/" target="_self" class="button-89">Gain stock insights</a>
         </div>
 
         <style>
-            .button-89 {
-              --b: 3px;   /* border thickness */
-              --s: .45em; /* size of the corner */
-              --color:rgb(0, 0, 0);
+            .button-89 {{
+              --b: 3px;   /* Border thickness */
+              --s: .45em; /* Size of the corner */
+              --color: black; /* Black text color */
               
               padding: calc(.5em + var(--s)) calc(.9em + var(--s));
               color: var(--color);
+              font-weight: bold; /* Bold font weight */
               --_p: var(--s);
               background:
                 conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
@@ -294,28 +294,34 @@ with col5:
               outline: var(--b) solid #0000;
               outline-offset: .6em;
               font-size: 25px;
-              font-weight: bold;
+              text-decoration: none; /* Remove underline */
+              display: inline-block;
+              text-align: center;
 
               border: 0;
 
               user-select: none;
               -webkit-user-select: none;
               touch-action: manipulation;
-            }
+            }}
 
             .button-89:hover,
-            .button-89:focus-visible {
+            .button-89:focus-visible {{
               --_p: 0px;
               outline-color: var(--color);
               outline-offset: .05em;
-            }
+            }}
 
-            .button-89:active {
+            .button-89:active {{
               background: var(--color);
               color: #fff;
-            }
+            }}
         </style>
     """, unsafe_allow_html=True)
+
+
+
+
 
 
 with col6:
