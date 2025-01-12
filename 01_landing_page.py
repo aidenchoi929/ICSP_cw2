@@ -274,7 +274,8 @@ with col5:
             justify-content: center; 
             height: 350px;">
             <div style="font-size: 50px; font-weight: bold; text-align: center; margin-bottom: 20px;">US Stocks 🇺🇸💰📈</div>
-            <button class="button-89" onclick="window.location.href='us_stocks_page'" role="button">Gain stock insights</button>
+            <button class="button-89" onclick="window.location.href='https://icspcw2-n33r4exgrg7wi2qpidkey4.streamlit.app/'"
+ role="button">Gain stock insights</button>
         </div>
 
         <style>
